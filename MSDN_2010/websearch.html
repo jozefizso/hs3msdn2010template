@@ -1,0 +1,42 @@
+<html>
+<head>
+    <!--DXMETADATA start type="MetaCharset" -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF8"><!--DXMETADATA end-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/helpstudio.css">
+    <script src="ftsindex.js" language="javascript" type="text/javascript">
+    </script>
+    <script src="script/fts.js" language="javascript" type="text/javascript">
+    </script>
+    <base target="body">
+
+    <meta content="Innovasys HelpStudio (www.innovasys.com)" name="GENERATOR">
+</head>
+
+<body style="margin-top:5;margin-left:5" topmargin="5" leftmargin="5">
+    <div id="divSearch">
+        <p>&nbsp;</p>
+
+        <table border="0" id="tblSearch">
+            <tr>
+                <td>Look for:<br>
+                <input id="txtSearch" type="text" name="txtSearch" value="">&nbsp;<input id="btnSearch" type="button" value="Search" name="btnSearch"
+                       language="javascript" onclick="return btnSearch_onclick()"></td>
+            </tr>
+
+            <tr>
+                <td>(Words can be combined using OR and AND)</td>
+            </tr>
+        </table>
+    </div><br>
+
+    <div id="divSearching" style="display: none">
+        <table id="tblProgress" border="0">
+            <tr>
+                <td>Searching...</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="divResults" style="display: none"></div>
+</body>
+</html>

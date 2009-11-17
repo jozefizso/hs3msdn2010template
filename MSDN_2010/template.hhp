@@ -1,0 +1,31 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1
+Compiled file=<!--DXMETADATA start type="CHMFileName" -->Generated CHM FileName<!--DXMETADATA end -->
+Contents file=<!--DXMETADATA start type="HelpCompilerProjectFileName" -->Contents Filename<!--DXMETADATA end -->.hhc
+Default Window=Default
+Default Font=,8,<!--DXMETADATA start type="CharSet" --><!--DXMETADATA end -->
+Default topic=<!--DXMETADATA start type="DefaultTopic" -->Default Topic<!--DXMETADATA end -->
+Display compile progress=Yes
+Full-text search=Yes
+Index file=<!--DXMETADATA start type="HelpCompilerProjectFileName" -->Help Compiler Project Filename<!--DXMETADATA end -->.hhk
+Language=<!--DXMETADATA start type="LocaleString" -->Locale String<!--DXMETADATA end -->
+Title=<!--DXMETADATA start type="HelpProjectTitle" -->Help Project Title<!--DXMETADATA end -->
+
+[WINDOWS]
+Default="<!--DXMETADATA start type="HelpProjectTitle" -->Help Project Title<!--DXMETADATA end -->","<!--DXMETADATA start type="HelpCompilerProjectFileName" -->Help Compiler Project Filename<!--DXMETADATA end -->.hhc","<!--DXMETADATA start type="HelpCompilerProjectFileName" -->Help Compiler Project Filename<!--DXMETADATA end -->.hhk","<!--DXMETADATA start type="DefaultTopic" -->Default Topic<!--DXMETADATA end -->","<!--DXMETADATA start type="DefaultTopic" -->Default Topic<!--DXMETADATA end -->",,,,,0x63520,200,0x380e,[0,0,600,400],,,,,,,0
+
+[FILES]
+<!--DXMETADATA start type="FilesSection" -->Files<!--DXMETADATA end -->
+
+[MAP]
+<!--DXMETADATA start type="MapSection" -->Map<!--DXMETADATA end -->
+
+[ALIAS]
+<!--DXMETADATA start type="AliasSection" -->Alias<!--DXMETADATA end -->
+
+[MERGE FILES]
+<!--DXMETADATA start type="HTMLHelpMergeFiles" -->Merge Files<!--DXMETADATA end -->
+
+[TEXT POPUPS]
+<!--DXMETADATA start type="HTMLHelpTextPopups" -->Text Popup File<!--DXMETADATA end -->

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Widgets>
+    <Widget Name="Section Heading" Designer="Content Helper" Description="" Hotkey="0" HotkeyShiftMask="0" IconFileName="" StripPara="False" ResourceOnly="False" IsHidden="False" SpellCheck="True">
+        <Content><![CDATA[<div class="regionArea">
+    <span class="regiontitle">%%Content:defaultvalue=Section Title%%</span>
+
+    <div class="hrdiv">
+        <hr class="regionhr">
+    </div>
+</div>]]></Content>
+    </Widget>
+</Widgets>

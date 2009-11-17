@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Widgets>
+    <Widget Name="Note Box" Designer="Content Helper" Description="Insert a Note box, using any selected HTML as the content" Hotkey="79" HotkeyShiftMask="3" IconFileName="" StripPara="True" ResourceOnly="False" IsHidden="False" SpellCheck="False">
+        <Content><![CDATA[<div class="alert">
+    <table>
+        <tbody>
+            <tr>
+                <th><img alt="Note" src="Images/alert_note.gif"><strong>Note:</strong></th>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>%%Content:defaultvalue=Type your Note Box content here.%%</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>]]></Content>
+    </Widget>
+</Widgets>

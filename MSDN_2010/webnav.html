@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/helpstudio.css">
+
+
+    <script lang="javascript" type="text/javascript">
+    <!--
+
+    //this is the tab switching function
+    var currentTab;
+    var currentTabBase;
+    var firstFlag = true;
+
+    function TOCTab(){
+    	return documentElement("TOCTab");
+    }
+
+    function TOCTabBase(){
+    	return documentElement("TOCTabBase");
+    }
+
+    function sourceElement(e){
+    	if (window.event)
+    		e = window.event;
+    	return e.srcElement? e.srcElement : e.target;
+    }
+
+    function documentElement(id){
+    	return document.getElementById(id);
+    }
+
+    function changeTabs(e){
+
+        if(firstFlag == true){
+                currentTab = TOCTab();
+                currentTabBase = TOCTabBase();
+                firstFlag = false;
+        }
+
+        var srcElem = sourceElement(e);
+
+        if (srcElem.className != "tab") {
+              while(srcElem.parentNode && srcElem.className != "tab"){
+	              srcElem = srcElem.parentNode;
+              }
+        }
+
+        if(srcElem.className == "tab"){
+
+                // Reset the last clicked tab
+                currentTab.className = "tab";
+                currentTabBase.style.backgroundColor = "white";
+
+                // Store a reference to the clicked tab
+			currentTab = srcElem;
+                currentTab.className = "selTab";
+                currentTabBase = documentElement(currentTab.id + "Base");
+                currentTabBase.style.backgroundColor = "#ECE9D8";
+
+                switch(currentTab.id) {
+                        case "TOCTab" :
+                                window.parent.frames["lbottom"].location.href = "webtoc.html";
+                                break;
+                        case "IndexTab" :
+                                window.parent.frames["lbottom"].location.href = "webindex.html";
+                                break;
+                        case "SearchTab" :
+                                window.parent.frames["lbottom"].location.href = "websearch.html";
+                                break;
+                }
+
+        }
+    }
+    -->
+    </script>
+    <style type="text/css">
+    <!--
+    .tab    {       cursor: default;
+                        border-top:solid 1px #E0E0E0;
+                        border-right:solid 1px gray;
+                        border-left:solid 1px #E0E0E0;
+                        font-weight:normal;
+                        background-color: #ECE9D8;}
+
+    .selTab {       cursor: default;
+                        border-left:solid 1px white;
+                        border-top:solid 1px white;
+                        border-right:solid 1px black;
+                        font-weight:bold;
+                        background-color: #ECE9D8;}
+    -->
+    </style>
+
+    <meta content="Innovasys HelpStudio (www.innovasys.com)" name="GENERATOR">
+</head>
+
+<body onclick="changeTabs(event)">
+    <table style="width:100%; height:20; margin-top: 5px" cellpadding="0" cellspacing="0">
+        <tr>
+            <td id="LeadIn">&nbsp;</td>
+
+            <td nowrap id="TOCTab" class="selTab" height="20">&nbsp;&nbsp;<!--DXMETADATA start type="Variable" name="TableOfContentsCaption" blankformat="Table of Contents"-->Table of Contents<!--DXMETADATA end-->&nbsp;&nbsp;</td>
+
+            <td nowrap id="IndexTab" class="tab">&nbsp;&nbsp;<!--DXMETADATA start type="Variable" name="IndexCaption" blankformat="Index"-->Index<!--DXMETADATA end-->&nbsp;&nbsp;</td>
+
+            <td nowrap id="SearchTab" class="tab">&nbsp;&nbsp;<!--DXMETADATA start type="Variable" name="SearchCaption" blankformat="Search"-->Search<!--DXMETADATA end-->&nbsp;&nbsp;</td>
+
+            <td id="LeadOut" width="98%">&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td id="LeadIn" style="height:1; width=5;"></td>
+
+            <td id="TOCTabBase" style="height:1; border-left:solid 1px white; background-color: #ECE9D8"></td>
+
+            <td id="IndexTabBase" style="height:1; background-color:white"></td>
+
+            <td id="SearchTabBase" style="height:1; background-color:white;border-right:solid 1px white"></td>
+
+            <td id="LeadOut" style="height:1; background-color:white"></td>
+        </tr>
+
+        <tr>
+            <td colspan="5" style="height:5;background-color: #ECE9D8;"></td>
+        </tr>
+    </table>
+</body>
+</html>
