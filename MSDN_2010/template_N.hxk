@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE HelpIndex SYSTEM "MS-Help://Hx/Resources/HelpIndex.DTD">
+<HelpIndex
+   Name="NamedUrlIndex"
+   DTDVersion="1.0"
+   FileVersion="1.0"
+   LangId="1033">
+
+   <Keyword Term="HomePage">
+      <Jump Url="<!--DXMETADATA start type="DefaultTopic" -->Default Topic<!--DXMETADATA end -->"/>
+   </Keyword>
+   <Keyword Term="DefaultPage">
+      <Jump Url="<!--DXMETADATA start type="DefaultTopic" -->Default Topic<!--DXMETADATA end -->"/>
+   </Keyword>
+   <!--DXMETADATA start type="CheckForFile" filename="_topic_not_found.html" format="<Keyword Term=""NavFailPage""><Jump Url=""_topic_not_found.html""/></Keyword>" -->Topic not found Topic<!--DXMETADATA end -->
+   <!--DXMETADATA start type="CheckForFile" filename="_index_entry_not_found.html" format="<Keyword Term=""EmptyIndexTerm""><Jump Url=""_index_entry_not_found.html""/></Keyword>" -->Index entry not found Topic<!--DXMETADATA end -->
+   
+</HelpIndex>

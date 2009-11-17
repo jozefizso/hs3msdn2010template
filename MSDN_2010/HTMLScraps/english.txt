@@ -1,0 +1,25 @@
+﻿_CATEGORISED_LINKS_BODY~<h4 class="subHeading">%%ItemName%%</h4> <ul class="seeAlsoStyle"> %%filtereditemlist:scrap=UL_LINK,Namespace=Link%% </ul>
+_GLOSSARYITEMSLIST_BODY~%%ReplaceInQuotes:Value=True%%<p><a name="%%GlossaryItemTerm%%"><STRONG>%%GlossaryItemTerm%%</STRONG></a><BR>%%crlf%%%%glossaryitemrawdefinition%%</p>
+_GLOSSARYLETTERSHEADER_BODY~%%GlossaryLetterLink%%
+_GLOSSARYLETTERSHEADER_SEPARATOR~ | 
+_GLOSSARYLETTERSLIST_BODY~%%ReplaceInQuotes:Value=True%%<h1><a name="%%GlossaryLetter%%"/>%%GlossaryLetter%%</h1><BLOCKQUOTE>%%FilteredItemList:Scrap=GLOSSARYITEMSLIST,Namespace=Glossary Item%%</BLOCKQUOTE>
+_GLOSSARYLETTERSLIST_FOOTER~<p>&nbsp;</p>
+_GLOSSARYREFERENCE~%%ReplaceInQuotes:Value=True%%<a class="hsglossaryreference" title="Click to show a definition of this term" onclick="javascript:hsShowGlossaryItemBox('%%GlossaryItemTerm:ForScript=True%%','%%GlossaryItemDefinition:ForScript=True%%',event)">%%GlossaryItemReference%%</a>
+_INDEXCONTENT_ENTRY_BODY~<LI><OBJECT type="text/sitemap">%%crlf%%<param name="Name" value="%%Keyword%%" >%%crlf%%%%ReplaceInQuotes:Value=False%%%%filtereditemlist:namespace=keyword jump,scrap=_INDEXCONTENT_ENTRYJUMP,NoHeader=True,NoFooter=True,blankformat="<param name=""See Also"" value=""%%ItemName%%"">"%%</OBJECT> %%crlf%%%%filtereditemlist:Namespace=Keyword,Scrap=_INDEXCONTENT_ENTRY,NoHeader=True,NoFooter=True,Format="<UL>%%FilteredItemList%%</UL>"%%
+_INDEXCONTENT_ENTRY_V2_BODY~<Keyword Term = "%%Keyword%%">%%crlf%%%%filtereditemlist:namespace=keyword jump,scrap=INDEXCONTENT_ENTRYJUMP_V2,NoHeader=True,NoFooter=True%% %%ReplaceInQuotes:Value=False%%%%filtereditemlist:Namespace=Keyword,Scrap=_INDEXCONTENT_ENTRY_V2,NoHeader=True,NoFooter=True%%</Keyword>%%crlf%%
+_INDEXCONTENT_ENTRY_V2_F_BODY~<Keyword Term = "%%Keyword%%">%%crlf%%%%filtereditemlist:namespace=keyword jump,scrap=INDEXCONTENT_ENTRYJUMP_V2,NoHeader=True,NoFooter=True%% %%ReplaceInQuotes:Value=False%%%%filtereditemlist:Namespace=Keyword,Scrap=_INDEXCONTENT_ENTRY_V2,NoHeader=True,NoFooter=True%%</Keyword>%%crlf%%
+_INDEXCONTENT_ENTRY_V2_A_BODY~<Keyword Term = "%%Keyword%%">%%crlf%%%%filtereditemlist:namespace=keyword jump,scrap=INDEXCONTENT_ENTRYJUMP_V2,NoHeader=True,NoFooter=True%% %%ReplaceInQuotes:Value=False%%%%filtereditemlist:Namespace=Keyword,Scrap=_INDEXCONTENT_ENTRY_V2,NoHeader=True,NoFooter=True%%</Keyword>%%crlf%%
+_INDEXCONTENT_ENTRY_WEB_BODY~%%ReplaceInQuotes:Value=False%%%%filtereditemlist:namespace=keyword jump,scrap=_INDEXCONTENT_ENTRYJUMP_WEB,NoHeader=True,NoFooter=True,blankformat="%%Keyword%%"%%%%filtereditemlist:Namespace=Keyword,Scrap=_INDEXCONTENT_ENTRY_WEB,NoHeader=True,NoFooter=True,Format="<blockquote>%%FilteredItemList%%</blockquote>",BlankFormat="<br>"%%%%crlf%%
+_INDEXCONTENT_ENTRYJUMP_BODY~%%ReplaceInQuotes:Value=True%%<param name="Local" value="%%KeywordTarget%%" >%%crlf%%
+_INDEXCONTENT_ENTRYJUMP_V2_BODY~%%ReplaceInQuotes:Value=True%%<Jump Url = "%%KeywordTarget%%"/>%%crlf%%
+_INDEXCONTENT_ENTRYJUMP_WEB_BODY~%%ReplaceInQuotes:Value=True%%<a target="body" href="%%KeywordTarget%%">%%Keyword%%</a>
+_INDEXCONTENT_ENTRYJUMP_WEB_SEPARATOR~<br>%%crlf%%
+_LANGUAGE_LIST_BODY~<p><a href="" onClick="setLanguageFilter('%%ItemName%%')">%%LanguageCaption%%</a></p>
+_LANGUAGE_LIST_FOOTER~<p><a href="" onClick="setLanguageFilter('All')">Show All</a></p>
+_LANGUAGE_LIST_HEADER~
+_LINK_BODY~%%ReplaceInQuotes:Value=True%%<a href="%%linktarget%%">%%linktitle%%</a>
+_LINK_SEPARATOR~&nbsp;|&nbsp;
+_LINKS_BODY~<p>%%filtereditemlist:scrap=LINK,Namespace=Link%%</p>
+_UL_LINK_BODY~%%ReplaceInQuotes:Value=True%%<li><a href="%%linktarget%%">%%linktitle%%</a></li>
+_WEB_TOCNODE_PAGE~%%ReplaceInQuotes:Value=True%%<li class="tbc" icon="%%icon%%"><a href="%%nodetarget%%"><img class="icon"/><span class="nodetext">%%nodecaption%%</span></a>
+_WEB_TOCNODE_TITLE~<li class="tbc" icon="%%icon%%"><a href="#" target="lbottom"><img class="icon"/><span class="nodetext">%%nodecaption%%</span></a>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?> 
+<!DOCTYPE HelpTOC>
+<HelpTOC DTDVersion="1.0" PluginStyle="Hierarchical" PluginTitle="<!--DXMETADATA start type="HelpProjectTitle" Escaped="True" -->Help Project Title<!--DXMETADATA end -->">
+   <HelpTOCNode NodeType="TOC" Url="<!--DXMETADATA start type="hhidentifier" -->File ID<!--DXMETADATA end -->"/>
+</HelpTOC>

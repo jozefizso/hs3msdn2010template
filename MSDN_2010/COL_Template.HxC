@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE HelpCollection>
+<HelpCollection DTDVersion="1.0" Title="<!--DXMETADATA start type="HelpProjectTitle" Escaped="True" -->Help Project Title<!--DXMETADATA end -->">
+
+  <TOCDef File="COL_<!--DXMETADATA start type="HelpCompilerProjectFileName" -->Help Compiler Project Filename<!--DXMETADATA end -->.HxT"/>
+
+  <KeywordIndexDef File="COL_<!--DXMETADATA start type="HelpCompilerProjectFileName" -->Help Compiler Project Filename<!--DXMETADATA end -->_K.HxK"/>
+  <KeywordIndexDef File="COL_<!--DXMETADATA start type="HelpCompilerProjectFileName" -->Help Compiler Project Filename<!--DXMETADATA end -->_F.HxK"/>
+  <KeywordIndexDef File="COL_<!--DXMETADATA start type="HelpCompilerProjectFileName" -->Help Compiler Project Filename<!--DXMETADATA end -->_N.HxK"/>
+  <KeywordIndexDef File="COL_<!--DXMETADATA start type="HelpCompilerProjectFileName" -->Help Compiler Project Filename<!--DXMETADATA end -->_A.HxK"/>
+  <KeywordIndexDef File="COL_<!--DXMETADATA start type="HelpCompilerProjectFileName" -->Help Compiler Project Filename<!--DXMETADATA end -->_D.HxK"/>
+
+  <ItemMoniker Name="!DefaultFullTextSearch" ProgId="HxDs.HxFullTextSearch" InitData="FTS"/>
+  <ItemMoniker Name="!DefaultTOC" ProgId="HxDs.HxHierarchy" InitData="COL_<!--DXMETADATA start type="HelpCompilerProjectFileName" -->Help Compiler Project Filename<!--DXMETADATA end -->"/>
+  <ItemMoniker Name="!DefaultKeywordIndex" ProgId="HxDs.HxIndex" InitData="K"/>
+  <ItemMoniker Name="!DefaultAssociativeIndex" ProgId="HxDs.HxIndex" InitData="A"/>
+  <ItemMoniker Name="!DefaultContextWindowIndex" ProgId="HxDs.HxIndex" InitData="F"/>
+  <ItemMoniker Name="!DefaultDynamicLinkIndex" ProgId="HxDs.HxIndex" InitData="D"/>
+  <ItemMoniker Name="!DefaultNamedUrlIndex" ProgId="HxDs.HxIndex" InitData="NamedUrlIndex"/>
+
+</HelpCollection>
